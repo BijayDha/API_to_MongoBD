@@ -1,0 +1,30 @@
+### CRUD operations
+
+GET http://localhost:8000/
+###
+
+GET http://localhost:8000/3
+###
+
+
+
+###
+POST http://localhost:8000/student
+Content-Type: application/json
+
+{
+    "id":5,
+    "name": "Bijay",
+    "grade":5
+    
+}
+###
+
+PUT http://localhost:8000/4
+###
+
+###
+
+DELETE  http://localhost:8000/8
+###
+
